@@ -11,14 +11,14 @@ This repository contains a collection of shell scripts and C programs designed f
 
 -   `get_device_descriptors/`: Contains scripts and C code to retrieve detailed USB device descriptors.
     -   `get_device_descriptors.c`: C source code for fetching USB device descriptors.
-    -   `get_device_descriptors.sh`: Shell script to compile and run the C code to display device descriptors.
+    -   `get_device_descriptors.sh`: Shell script to run to display device descriptors.
 -   `list_all_usb_info.sh`: A shell script to list general information about all connected USB devices.
 -   `read_gamepad_raw/`: Contains scripts and C code for reading raw input from a gamepad.
     -   `read_gamepad_raw.c`: C source code for reading raw gamepad input.
-    -   `read_gamepad_raw.sh`: Shell script to compile and run the C code to display raw gamepad input.
+    -   `read_gamepad_raw.sh`: Shell script to run and display raw gamepad input.
 -   `usb_info/`: Contains scripts and C code to display basic USB device information.
     -   `usb_info.c`: C source code for fetching basic USB information.
-    -   `usb_info.sh`: Shell script to compile and run the C code to display USB information.
+    -   `usb_info.sh`: Shell script to run to display USB information.
 
 ## Purpose
 
