@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -g
 
-TARGETS = util/get_device_descriptors usb-gamepad/read_gamepad_raw util/usb_info usb-serial/read_serial usb-gamepad/read_gamepad util/parse_gamepad_data
+TARGETS = util/get_device_descriptors usb-gamepad/read_gamepad_raw util/usb_info usb-serial/read_serial usb-gamepad/read_gamepad
 
 all: $(TARGETS)
 
