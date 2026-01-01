@@ -1,8 +1,3 @@
-# termux-usb-Examples
-
-
-Example Scripts by me and Gemini-Cli in Yolo-Mode 🫣 
-
 # Termux USB Hardware test
 
 This repository contains a collection of shell scripts and C programs designed for interacting with USB devices within a Termux environment on Android. These scripts can serve as a foundation for exploring USB device information and raw input from gamepads or usb-Serial
@@ -11,8 +6,9 @@ This repository contains a collection of shell scripts and C programs designed f
 
 -   `get_device_descriptors.sh`: Shell script to run to display device descriptors.
 -   `list_all_usb_info.sh`: A shell script to list general information about all connected USB devices.
--   `Read_gamepad_raw.sh`: Shell script to run and display raw gamepad input.
+-   `read_gamepad_raw.sh`: Shell script to run and display raw gamepad input.
 -   `usb_info.sh`: Shell script to run to display USB information.
+-   `read_serial.sh`: USB Serial example tested with Arduino Leonardo 
 
 ## Purpose
 
