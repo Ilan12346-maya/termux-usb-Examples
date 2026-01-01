@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 echo "Listing information for all connected USB devices:"
@@ -12,7 +11,7 @@ echo "--------------------------------------------------"
 DEVICE_PATHS=$(termux-usb -l | jq -r '.[]')
 
 if [ -z "$DEVICE_PATHS" ]; then
-    echo "No USB devices detected or parsing failed. Please ensure devices are connected an>
+    echo "No USB devices detected or parsing failed. Please ensure devices are connected and jq is installed."
 else
     for DEVICE_PATH in $DEVICE_PATHS; do
         echo ""
