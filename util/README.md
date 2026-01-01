@@ -36,7 +36,7 @@ This is useful for in-depth USB device analysis, allowing you to see all endpoin
 **Usage:**
 
 1.  Find the device path using `list_all_usb_info.sh`.
-2.  Execute the script with `termux-usb`:
+2.  Execute the program with `termux-usb`:
 
     ```bash
     termux-usb -e ./get_device_descriptors /dev/bus/usb/001/003
