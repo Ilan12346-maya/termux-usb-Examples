@@ -1,6 +1,6 @@
 # USB Serial Communication
 
-This directory contains a C program and a shell script for reading data from a USB serial device (e.g., an Arduino) in Termux.
+This directory contains a C program and a shell script for reading data from a USB serial device (tested with Arduino Leonardo) in Termux.
 
 ## Files
 
