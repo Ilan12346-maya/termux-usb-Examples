@@ -2,6 +2,9 @@
 
 This directory contains C programs and a header file for interacting with USB gamepads in Termux.
 
+![Read Gamepad](https://github.com/Ilan12346-maya/termux-usb-examples/blob/main/usb-gamepad/read_gamepad.png)
+
+
 ## Files
 
 -   **`gamepad_decode.h`**: This header file defines the structure and bitmasks required to decode the 20-byte data reports typically sent by USB gamepads. It provides constants for identifying D-pad states, button presses (e.g., A, B, X, Y, L1, R1, Home, Start, Back, L3, R3), and defines the `GamepadReport` struct for a byte-level mapping of the raw data, including analog stick and trigger values.
