@@ -2,6 +2,8 @@
 
 This directory contains a C program for reading data from a USB serial device (e.g., an Arduino) in Termux.
 
+![Read Serial](https://github.com/Ilan12346-maya/termux-usb-examples/blob/main/usb-serial/read_serial.jpg)
+
 ## Files
 
 -   **`read_serial.c`**: A C program that reads data from a USB serial device using `libusb`.
