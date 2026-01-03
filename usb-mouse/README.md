@@ -43,13 +43,13 @@ Both `read_mouse_raw.c` and `read_mouse.c` utilize the `libusb` library to inter
     *   **To read raw mouse data:**
 
         ```bash
-        termux-usb -e ./read_mouse_raw /dev/bus/usb/001/005
+        termux-usb -e ./read_mouse_raw /dev/bus/usb/001/002
         ```
 
     *   **To read decoded mouse data:**
 
         ```bash
-        termux-usb -e ./read_mouse /dev/bus/usb/001/005
+        termux-usb -e ./read_mouse /dev/bus/usb/001/002
         ```
 
-    (Replace `/dev/bus/usb/001/005` with the actual device path of your USB mouse.)
+    (Replace `/dev/bus/usb/001/002` with the actual device path of your USB mouse.)
